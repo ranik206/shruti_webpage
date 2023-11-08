@@ -86,10 +86,57 @@ html{
 }
 .myimg{
 	transition-duration: 1.5s;
+    margin-top: 50px;.
+
+
+
 }
 .myimg:hover
 {
 	transform: scale(1.4);
 	border-radius: 50px;
 	box-shadow: 0px 0px 20px royalblue;
+}
+.resumebtn{
+	height: 50px;
+	width: 150px;
+	font-size: 25px;
+	font-weight: bolder;
+	border:name;
+	outline: name;
+	transition-duration: 0.5s;
+	border-radius: 10px;
+	background-color: royalblue;
+	color: white;
+}
+.resumebtn: hover{
+	transform:scale(1.1);
+	background-color: white;
+	color: royalblue;
+	border:2px solid royalblue;
+}
+.skills{
+/*	background-color: lightgrey;*/
+}
+.skillset  td ul li{
+	margin-top: 25px;
+	font-weight: bolder;
+	font-size: 30px;
+	color: red;
+}
+.card-text
+{
+	font-size: 20px ;
+}
+.project_cards{
+	width: 90%;
+}
+.card{
+	transition-duration: 1s;
+}
+.card:hover{
+	box-shadow: 0 0 20px black;
+}
+.projects{
+	height: 600px;
 }
